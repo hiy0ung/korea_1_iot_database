@@ -87,4 +87,3 @@ drop table `students`;
 
 # vs drop
 # drop: 전체 구조물을 삭제
-

@@ -39,6 +39,7 @@ SHOW DATABASES;
 # 실행 단축키
 -- 마우스 커서가 위치하는 쿼리문을 실행: ctrl + enter
 -- 마우스로 드래그 한 영역의 쿼리문만을 실행: ctrl + shift + enter
+-- 영역 선택 없이 ctrl + shift + enter 선택 시 전체 실행
 
 # 새 SQL 에디터 열기 (새로운 파일 생성): ctrl + t
 # SQL 정렬: ctrl + b
