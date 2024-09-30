@@ -18,11 +18,11 @@ create table `big1` (select * from `world`.`city`, `sakila`.`country`);
 create table `big2` (select * from `world`.`city`, `sakila`.`country`);
 create table `big3` (select * from `world`.`city`, `sakila`.`country`);
 
-delete from big1; -- 처리 속도: 5.172초 (가장 느림)
+delete from big1; -- 처리 속도: 3.141초 (가장 느림)
 select * from big1; -- 테이블 형식은 남아있음
 
-drop table big2; -- 처리 속도: 0.016초 (가장 빠름)
+drop table big2; -- 처리 속도: 0.015초 (가장 빠름)
 # select * from big2; -- 테이블 자체가 삭제되었기 때문에 실행 X
 
-truncate table big3; -- 처리 속도: 0.078초
+truncate table big3; -- 처리 속도: 0.032초
 select * from big3; -- 테이블 형식은 남아있음
